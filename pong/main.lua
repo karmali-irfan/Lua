@@ -20,7 +20,7 @@ score_left = 0
 score_right = 0
 ball_x = VIRTUAL_WIDTH / 2 - 5 -- Horizontal position of the ball
 ball_y = VIRTUAL_HEIGHT / 2 - 5 -- Vertical position of the ball
-ball = Ball(VIRTUAL_WIDTH / 2 - 5 , VIRTUAL_HEIGHT / 2 - 5, 5, 5)
+ball = Ball(VIRTUAL_WIDTH / 2 - 5 , VIRTUAL_HEIGHT / 2 - 5, 4, 4)
 
 function love.load()
     push: setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT, {
